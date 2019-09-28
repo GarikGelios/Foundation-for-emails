@@ -17,12 +17,50 @@ This is the official starter project for [Foundation for Emails](http://foundati
 
 For Windows 10 need special environment
 
+Download [Node.js](https://nodejs.org/en/) 
+
+Download [Git-bash](https://git-scm.com/download/win) 
+
+Install download python 2.7 and Visual Studio by npm
+
 ```
 npm i windows-build-tools
 ```
- — it download python 2.7 and Visual Studio
 
- Check your pakage.json
+## Installation
+
+### Using the CLI
+
+Install the Foundation CLI with this command:
+
+```bash
+npm install foundation-cli --global
+```
+
+Use this command to set up a blank Foundation for Emails project:
+
+```bash
+foundation new --framework emails
+```
+
+The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
+
+### Manual Setup from this git repo
+
+To manually set up the template, first download it with Git:
+
+```bash
+git clone https://github.com/GarikGelios/Foundation-for-emails.git
+```
+
+Then open the folder in your command line, and install the needed dependencies:
+
+```bash
+cd projectname
+npm install
+```
+
+Check your pakage.json
 
  ```
  {
@@ -82,41 +120,6 @@ npm i windows-build-tools
   }
 }
  ```
-
-## Installation
-
-To use this template, your computer needs [Node.js](https://nodejs.org/en/) 0.12 or greater. The template can be installed with the Foundation CLI, or downloaded and set up manually.
-
-### Using the CLI
-
-Install the Foundation CLI with this command:
-
-```bash
-npm install foundation-cli --global
-```
-
-Use this command to set up a blank Foundation for Emails project:
-
-```bash
-foundation new --framework emails
-```
-
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
-
-### Manual Setup
-
-To manually set up the template, first download it with Git:
-
-```bash
-git clone https://github.com/zurb/foundation-emails-template projectname
-```
-
-Then open the folder in your command line, and install the needed dependencies:
-
-```bash
-cd projectname
-npm install
-```
 
 ## Build Commands
 
