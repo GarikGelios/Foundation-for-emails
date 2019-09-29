@@ -1,0 +1,37 @@
+---
+subject: Cancel booking
+---
+
+<container>
+  {{>header}}
+  <spacer size="16"></spacer>
+
+  <row>
+    <columns>
+
+      <h4>Booking was canceled by client</h4>
+      <p>Money must be returned to the client's card within 24 hours</p>
+
+      <hr/>
+
+      {{>client-details}}
+    
+      <spacer size="16"></spacer>
+
+      {{>booking-details
+        booking-color="alert"
+      }}
+
+      <hr/>
+
+      <spacer size="16"></spacer>
+
+      <button class="large expand radius" target="_blank" href="http://transfer.in-dev.work/backend/login/">Go to admin panel</button>
+
+      <hr/>
+    </columns>
+  </row>
+  {{>footer}}
+
+  <spacer size="16"></spacer>
+</container>

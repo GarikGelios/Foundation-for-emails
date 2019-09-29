@@ -1,9 +1,17 @@
 @import 'settings';
 
 // style rules
+body,
+html, 
+.body {
+  background: #f1e5f4 !important;
+}
 .header {
     background: $secondary-color;
   }
 h4 a {
     color: white !important;
+}
+.footer-text {
+    font-size: 90%;
 }
