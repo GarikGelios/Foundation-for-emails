@@ -1,0 +1,23 @@
+.text-orange{
+  color: $warning-color;
+}
+.text-white{
+  color: #ffffff;
+}
+.text-sand{
+  color: #ffdbb8;
+}
+.bg-dadvi {
+  background-color: #003b5d;
+}
+.border-warning{
+  border-color: $warning-color;
+  border-width: 2px;
+  border-style: solid;
+}
+.border-sand{
+  border-color: #ffdbb8;
+  border-width: 1px;
+  border-style: solid;
+  border-collapse: separate;
+}

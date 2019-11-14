@@ -16,15 +16,15 @@
   },
   "mail": {
     "to": [
-      "example@domain.com"
+      "garikgelios@gmail.com"
     ],
     "from": "Company name <info@company.com",
     "smtp": {
       "auth": {
-        "user": "example@domain.com",
-        "pass": "12345678"
+        "user": "support@ib.by",
+        "pass": "support123"
       },
-      "host": "smtp.domain.com",
+      "host": "smtp.ib.by",
       "secureConnection": true,
       "port": 465
     }
