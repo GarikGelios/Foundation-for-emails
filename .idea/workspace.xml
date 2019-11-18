@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93c1b650-6ff5-4008-a80a-c4fe63bbc420" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_settings.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/custom/_dadvi.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/custom/_dadvi.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dadvi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dadvi.html" afterDir="false" />
-    </list>
+    <list default="true" id="93c1b650-6ff5-4008-a80a-c4fe63bbc420" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +20,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dadvi.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dadvi.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/dadvi.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
-              <caret line="94" column="25" lean-forward="true" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+              <caret line="94" column="32" lean-forward="true" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.babel.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulpfile.babel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3019">
+              <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -131,6 +135,11 @@
             <path>
               <item name="Foundation-for-emails" type="b2602c69:ProjectViewProjectNode" />
               <item name="Foundation-for-emails" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Foundation-for-emails" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Foundation-for-emails" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Foundation-for-emails" type="b2602c69:ProjectViewProjectNode" />
@@ -248,15 +257,15 @@
       <workItem from="1573898815353" duration="710000" />
       <workItem from="1573905603884" duration="114000" />
       <workItem from="1573912995711" duration="1136000" />
-      <workItem from="1574066392471" duration="6274000" />
+      <workItem from="1574066392471" duration="6597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19542000" />
+    <option name="totallyTimeSpent" value="19865000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-312" width="1936" height="1056" extended-state="0" />
+    <frame x="1358" y="-312" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -265,9 +274,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32897604" />
       <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -452,13 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.babel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/custom/_transfer.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -535,7 +537,14 @@
     <entry file="file://$PROJECT_DIR$/src/pages/dadvi.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="94" column="25" lean-forward="true" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+          <caret line="94" column="32" lean-forward="true" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.babel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3019">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
         </state>
       </provider>
     </entry>
