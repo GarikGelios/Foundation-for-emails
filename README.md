@@ -1,6 +1,8 @@
+[link to index.html](dist\index.html)
+
 # Foundation for Emails Template
 
-[![devDependency Status](https://david-dm.org/zurb/foundation-emails-template/dev-status.svg)](https://david-dm.org/zurb/foundation-emails-template#info=devDependencies)
+[![dependencies Status](https://david-dm.org/zurb/foundation-emails-template/status.svg)](https://david-dm.org/zurb/foundation-emails-template)
 
 **Please open all issues with this template on the main [Foundation for Emails](http://github.com/zurb/foundation-emails/issues) repo.**
 
@@ -139,6 +141,19 @@ If you create a lot of emails, your build can start to slow down, as each build 
 repository. A simple way to keep it fast is to archive emails you no longer need by moving the pages into `src/pages/archive`.
 You can also move images that are no longer needed into `src/assets/img/archive`. The build will ignore pages and images that
 are inside the archive folder.
+
+## Use different folder an files for project
+
++ Create different custom style files and import it
+```
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+// Add custom scss style. Even new project get new custom scss file
+@import 'custom/transfer'; //← my custom style for Transfer project
+```
 
 ## Litmus Tests (config.json)
 
