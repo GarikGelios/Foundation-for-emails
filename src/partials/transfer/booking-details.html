@@ -3,13 +3,13 @@
         <columns large="6">
             <p>
               <strong>From: </strong>
-              <span>Larnaca airport</span>
+              <span>\{{ order.from_location }}</span>
             </p>
           </columns>
           <columns large="6">
             <p>
                 <strong>To: </strong>
-                <span>Paphos city</span>
+                <span>\{{ order.to_location }}</span>
             </p>
         </columns>
     </row>
@@ -17,13 +17,13 @@
         <columns large="6">
             <p>
                 <strong>Date: </strong>
-                <span>30.10.2019</span>
+                <span>\{{ order.date }}</span>
             </p>
         </columns>
         <columns large="6">
             <p>
                 <strong>Time: </strong>
-                <span>7:30 PM</span>
+                <span>\{{ order.time }}</span>
             </p>
         </columns>
     </row>
@@ -31,13 +31,13 @@
         <columns large="6">
             <p>
                 <strong>Arrival number: </strong>
-                <span>B2 883</span>
+                <span>\{{ order.arrival_number }}</span>
             </p>
         </columns>
         <columns large="6">
             <p>
                 <strong>Name on arrival card: </strong>
-                <span>John Doe</span>
+                <span>\{{ order.arrival_card }}</span>
             </p>
         </columns>
     </row>
@@ -45,7 +45,7 @@
         <columns large="6">
             <p>
                 <strong>Awaiting Companion: </strong>
-                <span>Yes</span>
+                <span>\{{ order.joint|yesno:'Yes,No' }}</span>
             </p>
         </columns>
     </row>
@@ -57,10 +57,10 @@
     <tr><th>Item</th><th>#</th><th>Price</th></tr>
     <tr>
         <td colspan="2"><b>Cost of the route:</b></td>
-        <td><b><span>95€</span></b></td>
+        <td><b><span>\{{ order.amount }}€</span></b></td>
     </tr>
     <tr>
         <td colspan="2">Possible cashback:</td>
-        <td><span>60€</span></td>
+        <td><span>\{{ order.cashback }}€</span></td>
     </tr>
 </table>
