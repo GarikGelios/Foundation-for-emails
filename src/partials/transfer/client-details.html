@@ -2,7 +2,7 @@
 <h4>Client Details</h4>
 
 <table>
-    <tr><td>Name</td><td><span>John</span></td></tr>
-    <tr><td>Email</td><td><span>johndoe@gmail.com</span></td></tr>
-    <tr><td>Phone</td><td><span>+375 (12) 123-45-67</span></td></tr>
+    <tr><td>Name</td><td><span>\{{ order.user|default:’Smith’ }}</span></td></tr>
+    <tr><td>Email</td><td><span>\{{ order.use.username }}</span></td></tr>
+    <tr><td>Phone</td><td><span>\{{ order.user.user_info.phone }}</span></td></tr>
 </table>
