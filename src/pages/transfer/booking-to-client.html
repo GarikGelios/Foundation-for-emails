@@ -1,5 +1,7 @@
 ---
 subject: Your booking has been received
+thanks: Thanks for your booking
+difference: Possible cashback
 ---
 
 <container>
@@ -8,14 +10,14 @@ subject: Your booking has been received
 
   <row>
     <columns>
-        {{>booking-thans-to-client}}
+        {{>thanks-to-client}}
     
         <spacer size="16"></spacer>
 
         {{>booking-details
           booking-color="secondary"
         }}
-
+        {{>payment-details}}
         <spacer size="16"></spacer>
             
     </columns>

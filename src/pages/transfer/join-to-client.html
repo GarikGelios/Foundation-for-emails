@@ -1,5 +1,7 @@
 ---
-subject: Your booking has been received
+subject: You has been joined to trip
+thanks: Thank you for joining the trip!
+difference: Your discount
 ---
 
 <container>
@@ -8,19 +10,15 @@ subject: Your booking has been received
 
   <row>
     <columns>
-        {{>booking-thans-to-client}}
+        {{>thanks-to-client}}
     
         <spacer size="16"></spacer>
 
         {{>booking-details
           booking-color="secondary"
         }}
-
+        {{>payment-details}}
         <spacer size="16"></spacer>
-
-        {{>booking-details
-          booking-color="secondary"
-        }}
             
     </columns>
   </row>
