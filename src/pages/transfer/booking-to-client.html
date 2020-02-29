@@ -1,6 +1,8 @@
 ---
-subject: Your booking has been received
-thanks: Thanks for your booking
+subject: Trip booking
+description: Your booking has been received
+heading-H1: Thanks for your booking
+heading-text: Check the trip details in this letter.
 difference: Possible cashback
 ---
 
@@ -10,7 +12,7 @@ difference: Possible cashback
 
   <row>
     <columns>
-        {{>thanks-to-client}}
+        {{>heading}}
     
         <spacer size="16"></spacer>
 
@@ -20,22 +22,6 @@ difference: Possible cashback
         {{>payment-details}}
         <spacer size="16"></spacer>
             
-    </columns>
-  </row>
-  <row>
-    <columns large="4">
-    </columns>
-    <columns small="6" large="4">
-      <button class="expand radius small warning" target="_blank" href="http://transfer.in-dev.work/faq/">✘ No, there is a mistake</button>
-    </columns>
-    <columns small="6" large="4">
-      <button class="expand radius small success" target="_blank" href="http://transfer.in-dev.work/success/">✔ Yes, all correct!</button>
-    </columns>    
-  </row>
-  <row>
-    <columns>
-      <hr/>
-      {{>booking-info-to-client}}
     </columns>
   </row>
   {{>footer}}

@@ -1,5 +1,8 @@
 ---
-subject: Your payment has been canceled
+subject: Failed to pay for the trip
+description: There may not be enough funds in the bank account
+heading-H1: Your payment has been canceled
+heading-text: Payment is cancelled. There may not be enough funds in the bank account or some technical error occurred. 
 ---
 
 <container>
@@ -8,22 +11,33 @@ subject: Your payment has been canceled
 
   <row>
     <columns>
-        {{>payment-cancel-text}}
-    
-        <spacer size="16"></spacer>
+      {{>heading}}
 
-        {{>booking-details
+      <spacer size="16"></spacer>
+
+      {{>booking-details
             booking-color="alert"
         }}
 
-        <spacer size="16"></spacer>
-            
+      <spacer size="16"></spacer>
+
     </columns>
   </row>
   <row>
     <columns>
-      <hr/>
-      {{>cancel-booking-info-to-client}}
+      <hr />
+      <h4>What's Next?</h4>
+
+      <p>Check your bank account balance and try to book your trip again.</p>
+
+      <spacer size="16"></spacer>
+
+      <button class="expand radius" target="_blank" href="http://transfer.in-dev.work/">Let's make another
+        booking</button>
+
+      <spacer size="16"></spacer>
+
+      <hr />
     </columns>
   </row>
   {{>footer}}
