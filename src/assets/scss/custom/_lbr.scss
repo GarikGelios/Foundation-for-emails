@@ -1,0 +1,40 @@
+// style rules
+body,
+html,
+.body {
+  background: #ececec !important;
+}
+.header {
+  background: $primary-color;
+}
+.header p a {
+  color: white !important;
+}
+.footer-text {
+  font-size: 90%;
+}
+
+.cta-block {
+    background-color: $secondary-color;
+    border-radius: 5px;
+    p {
+        padding-left: $global-padding;
+        color: #0063d1 ;
+    }
+}
+.manager {
+    border-radius: 50%;
+    max-width: 150px;
+
+}
+.simple-link {
+    color: #0063d1;
+    text-decoration: underline;
+}
+.black-link {
+    color: $black;
+}
+
+.bg-grey {
+    background-color: $medium-gray;
+}
