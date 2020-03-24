@@ -1,3 +1,82 @@
+body,
+html,
+.body {
+  background: #f3f3f3 !important; }
+
+.container.header {
+  background: #f3f3f3; }
+
+.body-drip {
+  border-top: 8px solid #663399; }
+
+.header {
+  background: #8a8a8a; }
+
+.header .columns {
+  padding-bottom: 0; }
+
+.header p {
+  color: #fff; }
+
+.header .wrapper-inner {
+  padding: 20px; }
+
+.header .container {
+  background: transparent; }
+
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998; }
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced; }
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39; }
+
+.wrapper.secondary {
+  background: #f3f3f3; }
+
+body,
+html,
+.body {
+  background: #ececec !important; }
+
+.header {
+  background: #f39314; }
+
+.header p a {
+  color: white !important; }
+
+.footer-text {
+  font-size: 90%; }
+
+.cta-block {
+  background-color: #fdefdc;
+  border-radius: 5px; }
+  .cta-block p {
+    padding-left: 16px;
+    color: #0063d1; }
+
+.manager {
+  border-radius: 50%;
+  max-width: 150px; }
+
+.simple-link {
+  color: #0063d1;
+  text-decoration: underline; }
+
+.black-link {
+  color: #0a0a0a; }
+
+.bg-grey {
+  background-color: #cacaca; }
+
+.max35 {
+  max-width: 35px; }
+
 .wrapper {
   width: 100%; }
 
@@ -370,7 +449,7 @@ p {
     line-height: 1.6; }
 
 small {
-  font-size: 70%;
+  font-size: 75%;
   color: #5b6475; }
 
 a {
@@ -600,82 +679,3 @@ table.menu.text-center a {
       display: block !important; }
   table.menu[align="center"] {
     width: auto !important; } }
-
-body,
-html,
-.body {
-  background: #f3f3f3 !important; }
-
-.container.header {
-  background: #f3f3f3; }
-
-.body-drip {
-  border-top: 8px solid #663399; }
-
-.header {
-  background: #8a8a8a; }
-
-.header .columns {
-  padding-bottom: 0; }
-
-.header p {
-  color: #fff; }
-
-.header .wrapper-inner {
-  padding: 20px; }
-
-.header .container {
-  background: transparent; }
-
-table.button.facebook table td {
-  background: #3B5998 !important;
-  border-color: #3B5998; }
-
-table.button.twitter table td {
-  background: #1daced !important;
-  border-color: #1daced; }
-
-table.button.google table td {
-  background: #DB4A39 !important;
-  border-color: #DB4A39; }
-
-.wrapper.secondary {
-  background: #f3f3f3; }
-
-body,
-html,
-.body {
-  background: #ececec !important; }
-
-.header {
-  background: #f39314; }
-
-.header p a {
-  color: white !important; }
-
-.footer-text {
-  font-size: 90%; }
-
-.cta-block {
-  background-color: #fdefdc;
-  border-radius: 5px; }
-  .cta-block p {
-    padding-left: 16px;
-    color: #0063d1; }
-
-.manager {
-  border-radius: 50%;
-  max-width: 150px; }
-
-.simple-link {
-  color: #0063d1;
-  text-decoration: underline; }
-
-.black-link {
-  color: #0a0a0a; }
-
-.bg-grey {
-  background-color: #cacaca; }
-
-.max50 {
-  max-width: 50px; }

@@ -1,9 +1,10 @@
 @import 'settings';
-@import 'foundation-emails';
-
 @import 'template/template';
 
 // Add custom scss style. Even new project get new custom scss file
 // @import 'custom/transfer';
 @import 'custom/lbr';
+
+
+@import 'foundation-emails';
 
