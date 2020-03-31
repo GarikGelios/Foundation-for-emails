@@ -16,3 +16,10 @@ h4 a {
 .footer-text {
     font-size: 90%;
 }
+$h1-font-size: 32px;
+$button-background: $primary-color;
+$button-color: $white;
+$anchor-color: $primary-color;
+$anchor-color-visited: $anchor-color;
+$callout-border: 1px solid darken($callout-background, 20%);
+$callout-border-secondary: 1px solid darken($secondary-color, 20%);
