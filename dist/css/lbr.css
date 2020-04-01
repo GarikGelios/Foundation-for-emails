@@ -60,10 +60,6 @@ html,
     padding-left: 16px;
     color: #0063d1; }
 
-.manager {
-  border-radius: 50%;
-  max-width: 150px; }
-
 .simple-link {
   color: #0063d1;
   text-decoration: underline; }
