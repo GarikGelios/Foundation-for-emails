@@ -50,13 +50,6 @@ html,
 .footer-text {
   font-size: 90%; }
 
-.cta-block {
-  background-color: #fdefdc;
-  border-radius: 5px; }
-  .cta-block p {
-    padding-left: 16px;
-    color: #0063d1; }
-
 .simple-link {
   color: #0063d1;
   text-decoration: underline; }
@@ -287,9 +280,6 @@ th.large-8.first {
 th.large-8.last {
   padding-right: 16px; }
 
-.body .columns th.large-8 {
-  width: 66.66667%; }
-
 th.large-10 {
   width: 467.33333px;
   padding-left: 8px;
@@ -346,10 +336,6 @@ p.text-right {
     margin: 0 auto !important;
     float: none !important;
     text-align: center !important; } }
-
-img.float-right {
-  float: right;
-  text-align: right; }
 
 img.float-center {
   margin: 0 auto;
