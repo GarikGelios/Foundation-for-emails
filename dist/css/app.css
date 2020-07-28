@@ -50,6 +50,10 @@ html,
 .footer-text {
   font-size: 90%; }
 
+.cta-block {
+  background-color: #fdefdc;
+  border-radius: 5px; }
+
 .simple-link {
   color: #0063d1;
   text-decoration: underline; }
@@ -57,11 +61,20 @@ html,
 .black-link {
   color: #0a0a0a; }
 
+.cta-link {
+  color: #0063d1;
+  font-weight: 700; }
+  .cta-link:visited {
+    color: #0063d1; }
+
 .bg-grey {
   background-color: #cacaca; }
 
 .max35 {
   max-width: 35px; }
+
+.p-0 {
+  padding: 0 !important; }
 
 .wrapper {
   width: 100%; }
@@ -310,6 +323,9 @@ th.large-12.last {
 
 th.large-12 center {
   min-width: 532px; }
+
+th.large-offset-1 {
+  padding-left: 64.33333px; }
 
 td.expander,
 th.expander {
