@@ -1,13 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+$body-font-family: 'Inter', sans-serif;
+
+$global-width: 760px;
 $primary-color: #f39314;
 $secondary-color: #fdefdc;
 
-$h1-font-size: 18px;
+$h3-font-size: 26px;
+$h4-font-size: 22px;
+
+$button-radius: 4px;
 
 // style rules
 body,
 html,
 .body {
-  background: #ececec !important;
+  background: $dark-dark-gray !important;
+}
+h1, h2, h3, h4, h5, h6, p {
+  font-family: $body-font-family;
 }
 .header {
   background: $primary-color;
@@ -47,8 +57,17 @@ html,
   }
 }
 
-.bg-grey {
+.bg-gray {
     background-color: $medium-gray;
+}
+.bg-dark-dark-gray {
+    background-color: $dark-dark-gray;
+}
+.bg-light-gray {
+    background-color: $light-gray;
+    p {
+      color: $dark-gray;
+    };
 }
 
 .max35 {
@@ -58,4 +77,42 @@ html,
 .p-0 {
   padding: 0!important;
 }
+.m-0 {
+  margin: 0!important;
+}
 
+.banner {
+  h3 {
+    color: $white;
+    font-weight: 600;
+  }
+  p {
+    color: #FDEFDC;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.button {
+ a {
+  color: $white!important;
+  font-size: $global-font-size;
+ }
+}
+.button.warning {
+  a {
+   color: #0063d1!important;
+   font-size: $global-font-size;
+  }
+ }
+
+.banner-img-bg{
+  background-image: url('https://cdn.pixabay.com/photo/2018/07/01/00/33/cow-3508678_1280.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

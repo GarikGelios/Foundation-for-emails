@@ -1,0 +1,57 @@
+---
+layout: lbr
+subject: Заявка на запчасти от ЛБР-агромаркет
+description: Посмотреть коммерческое предложение
+greeting: Уважаемый,
+name: Иван Иванович!
+heading-text1: Мы с вами обсуждали технику для заготовки соломы, я вам высылаю наше предложение.
+heading-text2: И ещё сделал подборку проверенных машин для вашего региона по заготовкам соломы, сена, приготовлению и раздаче кормов. Сейчас хорошие ценына технику в наличии.
+heading-text3: Успейте забронировать!
+link-cta: https://drafta.co/7116556/7775546
+text-cta: Перейти и посмотреть заявку
+description-cta: Предложение на технику предоставлено в интерактивной онлайн-форме, где можно ознакомиться с ценами, сроками поставки, запросить или скачать документы на оплату.
+manager-name: Малиновская Ирина Петровна
+manager-position: Зам. руководителя службы маркетинга и рекламы Компания ЛБР
+manager-phone: +375 29 608-79-02
+manager-email: malinovskaya@lbr.ru
+---
+
+<container>
+    {{>lbr-header}}
+    <spacer size="16" class="bg-light-gray"></spacer>
+
+    {{>lbr-greeting-gray}}
+
+    <row>
+        <columns>
+            <spacer size="32"></spacer>
+            <h2 class="text-center text-bold">Мы рекомендуем:</h2>
+        </columns>
+    </row>
+
+    {{>lbr-goods}}
+
+    {{>lbr-banner}}
+
+    <spacer size="32"></spacer>
+
+    {{>lbr-goods}}
+
+    <row>
+        <columns small="0" large="1" class="show-for-large">
+        </columns>
+        <columns small="12" large="10">
+            <button href="#" class="expanded warning">Смотреть все товары</button>
+        </columns>
+        <columns small="0" large="1" class="show-for-large">
+        </columns>
+    </row>
+
+    {{>lbr-manager}}
+    
+    <spacer size="32"></spacer>
+
+    {{>lbr-sociallink}}
+
+    {{>lbr-footer}}
+</container>
