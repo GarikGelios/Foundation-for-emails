@@ -1,0 +1,41 @@
+---
+layout: lbr
+subject: Заявка на запчасти от ЛБР-агромаркет
+description: Посмотреть коммерческое предложение
+greeting: Уважаемый,
+name: Ивановский Иван Иванович!
+heading-text1: В продолжение нашего разговора ... если это agreed true то картинка и alt-текст "Перейти и скачать документы", если false то "Открыть предложение"
+heading-text2: Спасибо за сотрудничество.
+link-cta: https://my.lbr.ru/offer/64100188338592effe04d8479a2c494d
+text-cta: Перейти и скачать документы
+description-cta: Заявка на запчасти предоставлена в интерактивной онлайн-форме, где можно ознакомиться с ценами, сроками поставки, подобрать аналоги, запросить или скачать документы на оплату.
+manager-name: Малиновская Ирина Петровна
+manager-position: Зам. руководителя службы маркетинга и рекламы Компания ЛБР
+manager-phone: +375 29 608-79-02
+manager-email: malinovskaya@lbr.ru
+---
+
+<container>
+  {{>lbr-header}}
+  <spacer size="16"></spacer>
+
+  <row>
+    <columns small="0" large="1" class="show-for-large">
+    </columns>
+    <columns small="12" large="6">
+      {{>lbr-greeting-small}}
+
+      {{>lbr-cta-small}}
+    </columns>
+    <columns small="12" large="3" class="large-offset-1">
+      {{>lbr-manager-small}}
+    </columns>
+    <columns small="0" large="1" class="show-for-large">
+    </columns>
+  </row>
+
+  <spacer size="32"></spacer>
+
+  {{>lbr-sociallink-small}}
+
+</container>

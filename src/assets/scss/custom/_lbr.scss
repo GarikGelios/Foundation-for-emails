@@ -22,6 +22,9 @@ h1, h2, h3, h4, h5, h6, p {
 .header {
   background: $primary-color;
 }
+.orange {
+  color: $primary-color;
+}
 .header p a {
   color: white !important;
 }
@@ -115,4 +118,8 @@ h1, h2, h3, h4, h5, h6, p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.regular {
+  font-weight: 400;
 }
