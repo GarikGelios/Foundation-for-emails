@@ -134,6 +134,9 @@ th.large-3.first {
 th.large-3.last {
   padding-right: 16px; }
 
+.body .columns th.large-3 {
+  width: 25%; }
+
 th.large-4 {
   width: 237.33333px;
   padding-left: 8px;
@@ -221,6 +224,17 @@ th.large-8.last {
 
 .body .columns th.large-8 {
   width: 66.66667%; }
+
+th.large-9 {
+  width: 554px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+th.large-9.last {
+  padding-right: 16px; }
+
+.body .columns th.large-9 {
+  width: 75%; }
 
 th.large-10 {
   width: 617.33333px;
@@ -555,9 +569,9 @@ table.callout {
 
 th.callout-inner {
   width: 100%;
-  border: 1px solid #cbcbcb;
+  border: 1px solid #191919;
   padding: 10px;
-  background: #fefefe; }
+  background: #4C4C4C; }
   th.callout-inner.primary {
     background: #fdefdc;
     border: 1px solid #f7c37c;
@@ -566,6 +580,10 @@ th.callout-inner {
     background: #fffdfa;
     border: 1px solid #f7c37c;
     color: #0a0a0a; }
+  th.callout-inner.warning {
+    background: #fdfefe;
+    border: 1px dashed #b6c3d0;
+    color: #fefefe; }
   th.callout-inner.alert {
     background: #fce6e2;
     border: 1px solid #b42912;
@@ -707,9 +725,6 @@ h1, h2, h3, h4, h5, h6, p {
 .header {
   background: #f39314; }
 
-.orange {
-  color: #f39314; }
-
 .footer-text {
   font-size: 90%; }
 
@@ -776,6 +791,9 @@ h1, h2, h3, h4, h5, h6, p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+th.callout-inner.warning {
+  background: #F4F6F8; }
 
 .goods-img {
   width: 295px; }
