@@ -279,6 +279,10 @@ th.large-12 center {
 th.large-offset-1 {
   padding-left: 79.33333px; }
 
+th.large-offset-5,
+th.large-offset-5.first {
+  padding-left: 332.66667px; }
+
 td.expander,
 th.expander {
   visibility: hidden;
@@ -388,13 +392,13 @@ h6 {
   Margin-bottom: 10px; }
 
 h1 {
-  font-size: 64px; }
+  font-size: 30px; }
 
 h2 {
   font-size: 30px; }
 
 h3 {
-  font-size: 28px; }
+  font-size: 22px; }
 
 h4 {
   font-size: 24px; }
@@ -410,19 +414,19 @@ table.body,
 p,
 td,
 th {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.3; }
 
 p {
   margin-bottom: 10px;
   Margin-bottom: 10px; }
   p.lead {
-    font-size: 17.5px;
+    font-size: 20px;
     line-height: 1.6; }
 
 small {
   font-size: 95%;
-  color: #4C4C4C; }
+  color: #5F5F5F; }
 
 a {
   color: #f39314;
@@ -550,6 +554,19 @@ table.button.success:hover table td {
 table.button.success:hover table a {
   border: 0 solid #386100; }
 
+table.button.alert table td {
+  background: #ec5840;
+  border: 0px solid #ec5840; }
+
+table.button.alert table a {
+  border: 0 solid #ec5840; }
+
+table.button.alert:hover table td {
+  background: #e23317; }
+
+table.button.alert:hover table a {
+  border: 0 solid #e23317; }
+
 table.button.warning table td {
   background: #F4F6F8;
   border: 0px solid #F4F6F8; }
@@ -569,9 +586,9 @@ table.callout {
 
 th.callout-inner {
   width: 100%;
-  border: 1px solid #191919;
+  border: 1px solid black;
   padding: 10px;
-  background: #4C4C4C; }
+  background: #1F1F1F; }
   th.callout-inner.primary {
     background: #fdefdc;
     border: 1px solid #f7c37c;
@@ -640,9 +657,9 @@ table.menu.text-center a {
   th.small-3 {
     display: inline-block !important;
     width: 25% !important; }
-  th.small-4 {
+  th.small-5 {
     display: inline-block !important;
-    width: 33.33333% !important; }
+    width: 41.66667% !important; }
   th.small-6 {
     display: inline-block !important;
     width: 50% !important; }
@@ -671,7 +688,16 @@ table.menu.text-center a {
     table.menu.vertical th {
       display: block !important; }
   table.menu[align="center"] {
-    width: auto !important; } }
+    width: auto !important; }
+  table.button.small-expanded {
+    width: 100% !important; }
+    table.button.small-expanded table {
+      width: 100%; }
+      table.button.small-expanded table a {
+        text-align: center !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important; } }
 
 body,
 html,
@@ -719,9 +745,6 @@ html,
 .body {
   background: #5F5F5F !important; }
 
-h1, h2, h3, h4, h5, h6, p {
-  font-family: "Inter", sans-serif; }
-
 .header {
   background: #f39314; }
 
@@ -755,7 +778,7 @@ h1, h2, h3, h4, h5, h6, p {
 .bg-light-gray {
   background-color: #F4F6F8; }
   .bg-light-gray p {
-    color: #4C4C4C; }
+    color: #1F1F1F; }
 
 .max35 {
   max-width: 35px; }
@@ -766,7 +789,7 @@ h1, h2, h3, h4, h5, h6, p {
 .m-0 {
   margin: 0 !important; }
 
-.banner h3 {
+.banner h1 {
   color: #fefefe;
   font-weight: 600; }
 
@@ -780,11 +803,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 .button a {
   color: #fefefe !important;
-  font-size: 14px; }
+  font-size: 16px; }
 
 .button.warning a {
   color: #0063d1 !important;
-  font-size: 14px; }
+  font-size: 16px; }
 
 .banner-img-bg {
   background-image: url("https://cdn.pixabay.com/photo/2018/07/01/00/33/cow-3508678_1280.jpg");
@@ -797,3 +820,9 @@ th.callout-inner.warning {
 
 .goods-img {
   width: 295px; }
+
+.text-gray {
+  color: #4C4C4C; }
+
+.text-black {
+  color: #0a0a0a; }

@@ -6,9 +6,6 @@ $primary-color: #f39314;
 $secondary-color: #fdefdc;
 $success-color: #f4f6f8;
 
-$h3-font-size: 26px;
-$h4-font-size: 22px;
-
 $button-radius: 4px;
 
 // style rules
@@ -17,9 +14,7 @@ html,
 .body {
   background: $dark-dark-gray !important;
 }
-h1, h2, h3, h4, h5, h6, p {
-  font-family: $body-font-family;
-}
+
 .header {
   background: $primary-color;
 }
@@ -90,7 +85,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .banner {
-  h3 {
+  h1 {
     color: $white;
     font-weight: 600;
   }
@@ -135,4 +130,12 @@ th.callout-inner.warning {
 
 .goods-img {
   width: 295px;
+}
+
+.text-gray {
+  color: $gray;
+}
+
+.text-black {
+  color: $black;
 }
